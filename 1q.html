@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+       h1 {
+        text-align: center;
+    }
+    body {
+      background-image: url(file:///C:/Users/knigh/OneDrive/Desktop/back2.jpg);
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+
+  .logo img {
+    max-width: 300px;
+    max-height:150px; 
+  }
+    .container {
+      width: 300px;
+      margin: 80px auto 0;
+      background: linear-gradient(to right, #050505, #090909);
+      padding: 66px;
+      border-radius: 9px;
+      box-shadow: 0 0 10px rgba(192, 11, 11, 0.2);
+    }
+    
+    .container h2 {
+      text-align: center;
+      color: #333;
+      font-family: "Audiowide", sans-serif;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #555;
+    }
+    
+    .form-group input[type="text"],
+    .form-group input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      font-size: 16px;
+      border-radius: 3px;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .form-group input[type="submit"] {
+      width: 100%;
+      padding: 8px;
+      font-size: 16px;
+      border-radius: 3px;
+      background: linear-gradient(to right, #FF512F, #DD2476);
+      border: none;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    .form-group input[type="submit"]:hover {
+      background: linear-gradient(to right, #DD2476, #FF512F);
+    }
+
+    .form-group .reset-password {
+      text-align: center;
+      color: #080808;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .login-options {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .login-options .btn-google,
+    .login-options .btn-facebook {
+      display: inline-block;
+      padding: 8px 16px;
+      margin-right: 10px;
+      border-radius: 3px;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .login-options .btn-google {
+      background-color: #c01a04;
+    }
+
+    .login-options .btn-facebook {
+      background-color: #163a86;
+    }
+
+    .login-options .btn-google:hover,
+    .login-options .btn-facebook:hover {
+      opacity: 0.8;
+    }
+
+    .login-options .fab {
+      margin-right: 5px;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <h2 style="font-size: 30px;"></h2>
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Enter your email" required>
+            </div>
+            
+
+            <nav>
+                <ul>
+                    <li align = "center">
+                      <a href="2q.html">
+                        <button class="next-button">
+                          Next
+                        </button>
+                      </a>
+                    </li>
+                    <br>
+                    <li align = "center">
+                      <a href="1q.html">
+                        <button class="next-button">
+                          ReStart
+                        </button>
+                      </a>
+                    </li>
+                    <br>
+                    <li align = "center">
+                      <a href="MTRS.html">
+                        <button class="next-button">
+                          Home
+                        </button>
+                      </a>
+                    </li>
+                </ul>
+            </nav>
